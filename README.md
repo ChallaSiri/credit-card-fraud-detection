@@ -1,23 +1,16 @@
-# Credit-Card-Fraud-Detection
-Fraud Detection model based on anonymized credit card transactions
+This project focuses on building a machine learning model to detect fraudulent credit card transactions using an anonymized dataset.
 
-It is important that credit card companies are able to recognize fraudulent credit card transactions so that customers are not charged for items that they did not purchase.
+Credit card fraud is a major challenge for banks and financial institutions, and early detection helps prevent financial loss for customers and companies. The dataset used in this project contains real credit card transactions made by European cardholders.
 
-<img src="https://github.com/sagnikghoshcr7/images/blob/master/Credit%20Card%20Fraud%20Detection.jpg" width="400" height="250">
+The data covers two days of transactions, with a total of 284,807 transactions, out of which only 492 are fraudulent. Since fraud cases represent just 0.172% of the entire dataset, the data is highly imbalanced. This makes the problem more complex and requires careful handling through techniques like resampling and advanced evaluation metrics.
 
-The datasets contains transactions made by credit cards in September 2013 by european cardholders.
-This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions.
-
-
-
-## Getting started
+The purpose of this project is to explore patterns in fraudulent behavior and build a model that can identify suspicious transactions effectively.
 
 1. get the code from the repository
 ```
-git clone https://github.com/sagnikghoshcr7/Credit-Card-Fraud-Detection.git 
-```
+https://github.com/ChallaSiri/credit-card-fraud-detection check here 
 2. [download the dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud) that will be used to train a transaction classifier. Unzip it and put the content (creditcard.csv) under main folder (Credit-Card-Fraud-Detection)
 
 3. install required python packages if previously not installed
 
-4. Finally run on Jupyter Notebook and enjoy 😉
+4. Finally run on Jupyter Notebook and enjoy.. 
